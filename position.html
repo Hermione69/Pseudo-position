@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS POSITION</title>
+<style>
+.box{
+    border: 5px dotted plum;
+    width: 200px;
+}
+.pic2{
+    position: relative;
+    left: 50px;
+    top: -80px;
+}
+.pic3{
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+</style>
+
+
+
 </head>
 <body>
 <h3>CSS POSITION</h3>
 <ol>
     <li>Static</li>
-    <li>Relative</li>
+    <li>Relative : <small>current postion relative e koto tuku change hobe and will not be leave the current spot.</small></li>
     <li>Absolute</li>
     <li>Fixed</li>
     <li>Sticky</li>
 </ol>
 
 <div class="swim-container">
-<div class="box"><img src="" alt=""></div>
-<div class="box"><img src="" alt=""></div>
-<div class="box"><img src="" alt=""></div>
+<div class="pic1"><img src="assets/1.jpg" alt="1"></div>
+<div class="pic2"><img src="assets/2.jpg" alt="2"></div>
+<div class="pic3"><img src="assets/3.jpg" alt="3"></div>
 
 
 </div>
